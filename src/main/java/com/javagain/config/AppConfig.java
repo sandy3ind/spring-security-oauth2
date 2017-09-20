@@ -14,7 +14,7 @@ import com.javagain.security.SecurityConfig;
  */
 @EnableWebMvc
 @Configuration
-@ComponentScan({ "com.javagain.*", "com.javagain.security*" })
+@ComponentScan({ "com.javagain.web*", "com.javagain.security*" })
 //@Import({ SecurityConfig.class })
 public class AppConfig {
 
