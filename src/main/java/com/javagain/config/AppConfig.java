@@ -2,10 +2,7 @@ package com.javagain.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-
-import com.javagain.security.SecurityConfig;
 
 /**
  * 
@@ -15,7 +12,6 @@ import com.javagain.security.SecurityConfig;
 @EnableWebMvc
 @Configuration
 @ComponentScan({ "com.javagain.web*", "com.javagain.security*" })
-//@Import({ SecurityConfig.class })
 public class AppConfig {
 
 }
